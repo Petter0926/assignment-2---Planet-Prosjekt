@@ -1,0 +1,141 @@
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #000000;
+  --text: hsl(38, 7%, 93%);
+  --gold: rgb(230, 177, 90);
+  --space: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 20px;
+  background-color: var(--background);
+  color: var(--text);
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.content {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: var(--background);
+  border-bottom: 1px solid rgba(230, 177, 90, 100);
+}
+
+header .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space);
+}
+
+.logo {
+  color: var(--gold);
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+.menu a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.hero .content {
+  min-height: 420px;
+  padding: 40px 0;
+  background-color: var(--background);
+  background-image: url(images/mars.jpeg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 400px auto;
+  background-attachment: scroll;
+}
+
+.hero .content p,
+.hero h1,
+.hero .button {
+  max-width: 440px;
+}
+
+h1,
+h2 {
+  font-family: "Fraunces", Georgia, "Times New Roman, Times, serif";
+  margin-bottom: 8px;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+p {
+  margin: 0 0 8px;
+}
+
+.label {
+  margin: 0;
+  color: var(--gold);
+  font-weight: 700;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: var(--gold);
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+}
+/* Sections */
+
+.section {
+  padding: 40px 0 60px;
+}
+
+.gallery {
+  display: flex;
+  gap: var(--space);
+}
+
+.gallery img {
+  padding: 10px;
+  width: 320px;
+  height: auto;
+  object-fit: cover;
+  border: 1px solid rgba(230, 177, 90, 100);
+}
+
+/* Footer */
+
+footer .content {
+  display: flex;
+  gap: 20px;
+}
+
+footer p {
+  padding-bottom: 24px;
+  color: var(--text);
+  font-size: 14px;
+}

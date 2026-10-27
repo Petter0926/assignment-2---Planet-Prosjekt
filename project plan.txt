@@ -1,0 +1,29 @@
+    Plan for nettside:
+
+1. Header med tittel og nav bar
+2. Hero med stort bilde og generell informasjon
+3. Galleri med bilder av planeten og overflaten
+4. Bilde av hvordan Mars så ut i fortiden
+5. Footer med kildeinformasjon
+
+    Bildekilder:
+
+ancient_mars.jpg
+Artist rendition of formation of Mars
+https://science.nasa.gov/photojournal/giant-impacts-on-ancient-mars-artists-concept/
+
+earth_mars.jpg
+Comparison between Earth and Mars
+https://science.nasa.gov/image-detail/amf-pia02570/
+
+mars.jpeg
+View of Mars
+https://science.nasa.gov/photojournal/galleries/pj-mars/
+
+surface.jpeg
+View of surface on Mars
+https://www.jpl.nasa.gov/images/pia23233-the-changing-surface-of-mars/
+
+    GOOGLE front:
+ for headers: FRAUNCES: https://fonts.google.com/specimen/Fraunces?preview.script=Latn
+ for text: Source Sans 3: https://fonts.google.com/specimen/Source+Sans+3
