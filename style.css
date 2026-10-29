@@ -11,6 +11,7 @@
   --text: hsl(38, 7%, 93%);
   --gold: rgb(230, 177, 90);
   --space: 20px;
+  --small-space: 12px;
 }
 
 html {
@@ -116,7 +117,7 @@ p {
 
 .gallery {
   display: flex;
-  gap: var(--space);
+  gap: var(--small-space);
   flex-wrap: wrap;
 }
 
@@ -125,7 +126,18 @@ p {
   width: 320px;
   height: auto;
   object-fit: cover;
+}
+
+.gallery .image-card {
   border: 1px solid rgba(230, 177, 90, 100);
+  flex-direction: column;
+  margin-top: auto;
+}
+
+.image-card p {
+  padding: 10px;
+  font-size: 12px;
+  opacity: 0.9;
 }
 
 /* Footer */
